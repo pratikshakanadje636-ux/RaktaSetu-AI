@@ -1,0 +1,183 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+.page-title{
+    text-align:center;
+    color:#b71c1c;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.dashboard{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin:40px;
+}
+
+.card-link{
+    text-decoration:none;
+}
+
+.card{
+    width:220px;
+    padding:30px;
+    text-align:center;
+    background:#b71c1c;
+    color:white;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+table{
+    width:80%;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th{
+    background:#b71c1c;
+    color:white;
+    padding:12px;
+    width:30%;
+}
+
+table td{
+    padding:12px;
+    border:1px solid #ddd;
+}
+
+.btn{
+    background:#b71c1c;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#8e0000;
+}
+
+.login-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+    width:850px;
+    background:white;
+    display:flex;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 20px rgba(0,0,0,.15);
+}
+
+.login-left{
+    flex:1;
+    padding:40px;
+}
+
+.login-right{
+    flex:1;
+    background:#b71c1c;
+    color:white;
+    padding:40px;
+}
+
+.login-left input,
+.login-left select,
+.login-left textarea{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#b71c1c;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#8e0000;
+}
+
+.register-btn{
+    display:inline-block;
+    background:white;
+    color:#b71c1c;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+/* ================= REGISTER FORM ================= */
+
+form{
+    width:550px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 20px rgba(0,0,0,.15);
+}
+
+form label{
+    display:block;
+    font-weight:bold;
+    margin-top:12px;
+    margin-bottom:5px;
+}
+
+form input,
+form select,
+form textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-sizing:border-box;
+    margin-bottom:15px;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus{
+    outline:none;
+    border-color:#b71c1c;
+}
+
+form button{
+    width:100%;
+    background:#b71c1c;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+form button:hover{
+    background:#8e0000;
+}
