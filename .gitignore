@@ -1,0 +1,21 @@
+# Local configuration and secrets
+db.php
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.log
+
+# Python generated files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
